@@ -1,0 +1,230 @@
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  min-height: 1024px;
+  width: 1440px;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+}
+.matching {
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px 0px 40px;
+  width: 350px;
+  min-height: 668px;
+  border-radius: 20px;
+  box-shadow: 0 0 100px #3456;
+}
+.matching header {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.psection h3 {
+  font-weight: normal;
+  color: #a9a9aa;
+  font-size: 25px;
+}
+
+.psection p {
+  font-size: 18px;
+  color: #35353f;
+}
+.psection {
+  width: 100%;
+  border-bottom: 1px dashed #a9a9aa;
+}
+
+.dolar {
+  display: flex;
+  align-items: center;
+}
+.dolar h2 {
+  font-size: 32px;
+  color: #0b0914;
+}
+.matching button {
+  position: absolute;
+  width: 352px;
+  height: 64px;
+  border-radius: 12px;
+  background: #2e6434;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 22px;
+  border: none;
+  bottom: 20px;
+  right: 12%;
+}
+
+/*///////////////////////////////////////////////////////////*/
+.Goodplans {
+  background: #2e6434;
+  color: #fff;
+}
+.Goodplans span {
+  width: 296px;
+  height: 96px;
+  font-size: 32px;
+  line-height: 45px;
+}
+
+.Goodplans i {
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.Goodplans img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.Goodplans .psection p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+.Goodplans .psection {
+  border: none;
+}
+
+@media screen and (max-width: 1530px) {
+  section {
+    width: 1080px;
+    padding: 70px;
+  }
+  .matching {
+    padding: 10px 20px 0px 20px;
+    width: 270px;
+    min-height: 568px;
+    border-radius: 15px;
+  }
+  .matching header {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .psection h3 {
+    font-size: 18px;
+  }
+
+  .psection p {
+    font-size: 16px;
+  }
+
+  .dolar h2 {
+    font-size: 25px;
+  }
+  .matching button {
+    width: 250px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 18px;
+    bottom: 20px;
+    right: 9%;
+  }
+
+  /*///////////////////////////////////////////////////////////*/
+
+  .Goodplans span {
+    width: 220px;
+    height: 70px;
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .Goodplans i {
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 22px;
+    margin-top: 15px;
+  }
+  .Goodplans img {
+    height: 300px;
+  }
+
+  .Goodplans .psection p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+
+
+@media screen and (max-width: 1100) {
+    section {
+      width: 780px;
+      padding: 75px;
+    }
+    .matching {
+      padding: 6px 10px 0px 10px;
+      width: 180px;
+      min-height: 4px;
+      border-radius: 15px;
+    }
+    .matching header {
+      font-size: 25px;
+      font-weight: 600;
+    }
+  
+    .psection h3 {
+      font-size: 18px;
+    }
+  
+    .psection p {
+      font-size: 16px;
+    }
+  
+    .dolar h2 {
+      font-size: 25px;
+    }
+    .matching button {
+      width: 250px;
+      height: 45px;
+      border-radius: 8px;
+      font-size: 18px;
+      bottom: 20px;
+      right: 9%;
+    }
+  
+    /*///////////////////////////////////////////////////////////*/
+  
+    .Goodplans span {
+      width: 220px;
+      height: 70px;
+      font-size: 22px;
+      line-height: 35px;
+    }
+  
+    .Goodplans i {
+      width: 30px;
+      height: 30px;
+      color: #ffffff;
+      font-size: 22px;
+      margin-top: 15px;
+    }
+    .Goodplans img {
+      height: 300px;
+    }
+  
+    .Goodplans .psection p {
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }
+  
