@@ -1,6 +1,6 @@
 main {
-  height: 100vh;
-  width: 100vw;
+  height: 98vh;
+  width: 98vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,6 +24,7 @@ section {
   min-height: 668px;
   border-radius: 20px;
   box-shadow: 0 0 100px #3456;
+  overflow: hidden;
 }
 .matching header {
   font-size: 32px;
@@ -164,67 +165,187 @@ section {
   }
 }
 
-
-
-@media screen and (max-width: 1100) {
-    section {
-      width: 780px;
-      padding: 75px;
-    }
-    .matching {
-      padding: 6px 10px 0px 10px;
-      width: 180px;
-      min-height: 4px;
-      border-radius: 15px;
-    }
-    .matching header {
-      font-size: 25px;
-      font-weight: 600;
-    }
-  
-    .psection h3 {
-      font-size: 18px;
-    }
-  
-    .psection p {
-      font-size: 16px;
-    }
-  
-    .dolar h2 {
-      font-size: 25px;
-    }
-    .matching button {
-      width: 250px;
-      height: 45px;
-      border-radius: 8px;
-      font-size: 18px;
-      bottom: 20px;
-      right: 9%;
-    }
-  
-    /*///////////////////////////////////////////////////////////*/
-  
-    .Goodplans span {
-      width: 220px;
-      height: 70px;
-      font-size: 22px;
-      line-height: 35px;
-    }
-  
-    .Goodplans i {
-      width: 30px;
-      height: 30px;
-      color: #ffffff;
-      font-size: 22px;
-      margin-top: 15px;
-    }
-    .Goodplans img {
-      height: 300px;
-    }
-  
-    .Goodplans .psection p {
-      font-size: 18px;
-      line-height: 20px;
-    }
+@media screen and (max-width: 1100px) {
+  section {
+    width: 780px;
+    padding: 50px;
   }
-  
+  .matching {
+    padding: 10px 10px 0px 10px;
+    width: 200px;
+    min-height: 400px;
+    border-radius: 15px;
+  }
+  .matching header {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .psection h3 {
+    font-size: 15px;
+  }
+
+  .psection p {
+    font-size: 12px;
+  }
+
+  .dolar h2 {
+    font-size: 18px;
+  }
+  .matching button {
+    width: 176px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 12px;
+    bottom: 20px;
+    right: 9%;
+  }
+
+  /*///////////////////////////////////////////////////////////*/
+
+  .Goodplans span {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .Goodplans i {
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .Goodplans img {
+    height: 200px;
+  }
+
+  .Goodplans .psection p {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    width: 600px;
+    padding: 30px;
+    /* min-height: 1024px; */
+  }
+  .matching {
+    padding: 10px 10px 0px 10px;
+    width: 140px;
+    min-height: 280px;
+    border-radius: 10px;
+  }
+  .matching header {
+    font-size: 15px;
+  }
+
+  .psection h3 {
+    font-size: 11px;
+  }
+
+  .psection p {
+    font-size: 10px;
+  }
+
+  .dolar h2 {
+    font-size: 15px;
+  }
+  .matching button {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 10px;
+    bottom: 20px;
+    right: 17%;
+  }
+
+  /*///////////////////////////////////////////////////////////*/
+
+  .Goodplans span {
+    width: 100px;
+    height: 25px;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .Goodplans i {
+    width: 12px;
+    height: 12px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .Goodplans img {
+    height: 140px;
+  }
+
+  .Goodplans .psection p {
+    font-size: 11px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  section {
+    width: 450px;
+    padding: 20px;
+    display: block;
+    margin-top: auto ;
+  }
+  .matching {
+    padding: 15px 15px 0px 15px;
+    width: 200px;
+    min-height: 320px;
+    border-radius: 10px;
+    margin: 20px auto;
+  }
+  .matching header {
+    font-size: 20px;
+  }
+
+  .psection h3 {
+    font-size: 15px;
+  }
+
+  .psection p {
+    font-size: 12px;
+  }
+
+  .dolar h2 {
+    font-size: 22px;
+  }
+  .matching button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    bottom: 20px;
+    right: 17%;
+  }
+
+  /*///////////////////////////////////////////////////////////*/
+
+  .Goodplans span {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .Goodplans i {
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .Goodplans img {
+    height: 200px;
+  }
+
+  .Goodplans .psection p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
